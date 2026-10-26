@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Never commit experiment state or credentials.
+data/
+datasets/
+artifacts/
+results/
+reports/
+checkpoints/
+models/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+.env
+.env.*
+secrets.*
